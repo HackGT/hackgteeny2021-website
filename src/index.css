@@ -276,7 +276,7 @@ footer .socials li img {
   }
 
   nav .logo {
-    display: block;
+    display: flex;
   }
 
   .about-item {
@@ -286,7 +286,7 @@ footer .socials li img {
 
 @media screen and (max-width: 500px) {
   :root {
-    --base-unit: 11px;
+    --base-unit: 10px;
   }
 
   body {
@@ -326,5 +326,10 @@ footer .socials li img {
 
   .about-item img {
     height: 200px;
+  }
+
+  .faq {
+    padding-right: var(--base-unit-1);
+    padding-left: var(--base-unit-1);
   }
 }
