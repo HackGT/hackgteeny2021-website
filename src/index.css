@@ -233,6 +233,22 @@ a.btn:hover {
   display: none;
 }
 
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors a {
+  margin: 30px 20px;
+  transition: all .2s ease-in-out;
+}
+
+.sponsors a:hover {
+  transform: scale(1.1);
+}
+
 footer {
   color: var(--blue);
   display: flex;
@@ -261,6 +277,16 @@ footer .socials li:hover {
 footer .socials li img {
   height: calc(1.25 * var(--base-unit-2));
   width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0px 10%;
+  }
+
+  .sponsors {
+    flex-direction: column;
+  }
 }
 
 
