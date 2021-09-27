@@ -233,6 +233,22 @@ a.btn:hover {
   display: none;
 }
 
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors a {
+  margin: 0 20px;
+  transition: all .2s ease-in-out;
+}
+
+.sponsors a:hover {
+  transform: scale(1.1);
+}
+
 footer {
   color: var(--blue);
   display: flex;
